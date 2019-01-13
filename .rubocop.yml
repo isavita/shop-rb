@@ -1,0 +1,11 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - spec/spec_helper.rb
+    - bin/**
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context']
+Metrics/LineLength:
+  Max: 120
+Documentation:
+  Enabled: false
